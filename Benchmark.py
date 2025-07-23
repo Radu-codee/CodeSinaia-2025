@@ -4,7 +4,7 @@ import requests
 prompt = "Explain the theory of general relativity in simple terms."
 
 data = {
-    "model": "gemma3:4b",
+    "model": "gemma3:1b",
     "messages": [{"role": "user", "content": prompt}],
     "stream": False
 }
